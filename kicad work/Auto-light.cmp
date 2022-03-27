@@ -1,0 +1,67 @@
+Cmp-Mod V01 Created by PcbNew   date = 10/01/18 17:10:49
+
+BeginCmp
+TimeStamp = 5BB1E170
+Path = /5B9622B4
+Reference = R1;
+ValeurCmp = LDR03;
+IdModule  = Opto-Devices:Resistor_LDR_4.9x4.2_RM2.54;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB1E17E
+Path = /5B962255
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB1E18C
+Path = /5B962291
+Reference = R3;
+ValeurCmp = 20K;
+IdModule  = Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB1E19A
+Path = /5B962272
+Reference = R4;
+ValeurCmp = 220;
+IdModule  = Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB1E1A8
+Path = /5BB1D8A4
+Reference = R5;
+ValeurCmp = 220;
+IdModule  = Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB1EE73
+Path = /5B962189
+Reference = J1;
+ValeurCmp = Conn_01x02;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02_Pitch1.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB1EE9D
+Path = /5B962205
+Reference = J2;
+ValeurCmp = Conn_01x02;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02_Pitch1.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB1EEC7
+Path = /5B962230
+Reference = U1;
+ValeurCmp = NE555;
+IdModule  = Housings_DIP:DIP-8_W7.62mm_LongPads;
+EndCmp
+
+EndListe

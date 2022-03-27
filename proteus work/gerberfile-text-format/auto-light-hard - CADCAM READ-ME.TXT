@@ -1,0 +1,36 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'auto-light-hard.pdsprj'.
+CADCAM generated at 16:40:46 on 01 October 2018.
+
+File List
+---------
+Top Copper              : auto-light-hard - CADCAM Top Copper.TXT
+Bottom Copper           : auto-light-hard - CADCAM Bottom Copper.TXT
+Drill                   : auto-light-hard - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer
+
+D10	SQUARE  S=50th                                                            FLASH
+D11	CIRCLE  D=50th                                                            FLASH
+D12	SQUARE  S=80th                                                            FLASH
+D13	CIRCLE  D=70th                                                            FLASH
+D14	CIRCLE  D=8th                                                             DRAW
+D15	CIRCLE  D=10th                                                            DRAW
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	30th (0-15)
+T02	40th (0-15)
+
+
+[END OF FILE]
